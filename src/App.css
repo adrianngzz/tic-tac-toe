@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+
+.status {
+  margin: 12px;
+  font-size: 24px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 8px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 32px;
+  border: 1px solid white;
+}
+
+.error {
+  color: red;
+  margin: 12px;
+  font-size: 24px;
+}
+
+#reset {
+  margin: 12px;
+}
+
